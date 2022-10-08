@@ -130,8 +130,7 @@
         return nil;
     }
     __block NSURLSessionDataTask *task = nil;
-    task = [self.sessionManager dataTaskWithRequest:request
-                                  completionHandler:^(NSURLResponse *_Nonnull response, id _Nullable responseObject, NSError *_Nullable error) {
+    task = [self.sessionManager dataTaskWithRequest:request uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse *_Nonnull response, id _Nullable responseObject, NSError *_Nullable error) {
                                       [self.reqeustDictionary removeObjectForKey:@([task taskIdentifier])];
                                       NSData *responseData = responseObject;
                                       [self requestFinishedWithBlock:complete task:task data:responseData error:error];

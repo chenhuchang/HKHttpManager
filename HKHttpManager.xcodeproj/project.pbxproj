@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013AC50198B58C64361A1578 /* libPods-HKHttpManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3664DC75D3DF4BA980E4ED /* libPods-HKHttpManager.a */; };
 		3A37F812207B4895008C1F2A /* HKHttpGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A37F811207B4895008C1F2A /* HKHttpGroupRequest.m */; };
 		3A37F815207B5729008C1F2A /* HKHttpManager+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A37F814207B5729008C1F2A /* HKHttpManager+Group.m */; };
 		3A37F818207B68CA008C1F2A /* HKHttpManager+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A37F817207B68CA008C1F2A /* HKHttpManager+Chain.m */; };
@@ -27,7 +28,6 @@
 		3A3DBB551FFE382000784AE6 /* HKHttpManager+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DBB541FFE382000784AE6 /* HKHttpManager+Validate.m */; };
 		3A3DBB601FFE47D600784AE6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DBB5F1FFE47D600784AE6 /* NSString+Base64.m */; };
 		3A3DBB631FFE4D8B00784AE6 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DBB621FFE4D8B00784AE6 /* NSDictionary+JSON.m */; };
-		60C299990AB4E6AE784D0F93 /* libPods-HKHttpManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD584EF260E7031009C1D1F6 /* libPods-HKHttpManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C38DB4F164C3B4E342ED074 /* Pods-HKHttpManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKHttpManager.release.xcconfig"; path = "Target Support Files/Pods-HKHttpManager/Pods-HKHttpManager.release.xcconfig"; sourceTree = "<group>"; };
 		3A27DE9C207CBE0800B65B28 /* HKHttpManagerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKHttpManagerHeader.h; sourceTree = "<group>"; };
 		3A37F810207B4895008C1F2A /* HKHttpGroupRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKHttpGroupRequest.h; sourceTree = "<group>"; };
 		3A37F811207B4895008C1F2A /* HKHttpGroupRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKHttpGroupRequest.m; sourceTree = "<group>"; };
@@ -92,9 +93,8 @@
 		3A3DBB5F1FFE47D600784AE6 /* NSString+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 		3A3DBB611FFE4D8B00784AE6 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
 		3A3DBB621FFE4D8B00784AE6 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
-		A929B1EDF29D9163C23E93EC /* Pods-HKHttpManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKHttpManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HKHttpManager/Pods-HKHttpManager.debug.xcconfig"; sourceTree = "<group>"; };
-		BD584EF260E7031009C1D1F6 /* libPods-HKHttpManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HKHttpManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE97E78643A881294D2E723D /* Pods-HKHttpManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKHttpManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-HKHttpManager/Pods-HKHttpManager.release.xcconfig"; sourceTree = "<group>"; };
+		5A3664DC75D3DF4BA980E4ED /* libPods-HKHttpManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HKHttpManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDDE7990C7C6E54553ED58E /* Pods-HKHttpManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKHttpManager.debug.xcconfig"; path = "Target Support Files/Pods-HKHttpManager/Pods-HKHttpManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60C299990AB4E6AE784D0F93 /* libPods-HKHttpManager.a in Frameworks */,
+				013AC50198B58C64361A1578 /* libPods-HKHttpManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,8 +130,8 @@
 				3A3DBB1F1FFE19D800784AE6 /* HKHttpManagerTests */,
 				3A3DBB2A1FFE19D800784AE6 /* HKHttpManagerUITests */,
 				3A3DBB051FFE19D700784AE6 /* Products */,
-				A506C8DC56C4EE1B4A89AFF7 /* Pods */,
-				E154556D8D886E4DA2D597AB /* Frameworks */,
+				8D4AB459AAA6EA4D41CC23EA /* Pods */,
+				4F40696D96370A3EFC27E70B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,17 +183,17 @@
 		3A3DBB3D1FFE21D400784AE6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3A3DBB4B1FFE2D6500784AE6 /* HKHttpConstant.h */,
+				3A27DE9C207CBE0800B65B28 /* HKHttpManagerHeader.h */,
+				3A3DBB611FFE4D8B00784AE6 /* NSDictionary+JSON.h */,
+				3A3DBB5E1FFE47D600784AE6 /* NSString+Base64.h */,
+				3A3DBB621FFE4D8B00784AE6 /* NSDictionary+JSON.m */,
+				3A3DBB5F1FFE47D600784AE6 /* NSString+Base64.m */,
 				3A3DBB471FFE2B4A00784AE6 /* configure */,
 				3A3DBB3F1FFE252200784AE6 /* logger */,
 				3A3DBB401FFE252200784AE6 /* manager */,
-				3A3DBB4C1FFE2E2700784AE6 /* response */,
 				3A3DBB3E1FFE252200784AE6 /* request */,
-				3A3DBB4B1FFE2D6500784AE6 /* HKHttpConstant.h */,
-				3A27DE9C207CBE0800B65B28 /* HKHttpManagerHeader.h */,
-				3A3DBB5E1FFE47D600784AE6 /* NSString+Base64.h */,
-				3A3DBB5F1FFE47D600784AE6 /* NSString+Base64.m */,
-				3A3DBB611FFE4D8B00784AE6 /* NSDictionary+JSON.h */,
-				3A3DBB621FFE4D8B00784AE6 /* NSDictionary+JSON.m */,
+				3A3DBB4C1FFE2E2700784AE6 /* response */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -255,21 +255,21 @@
 			path = response;
 			sourceTree = "<group>";
 		};
-		A506C8DC56C4EE1B4A89AFF7 /* Pods */ = {
+		4F40696D96370A3EFC27E70B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A929B1EDF29D9163C23E93EC /* Pods-HKHttpManager.debug.xcconfig */,
-				EE97E78643A881294D2E723D /* Pods-HKHttpManager.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E154556D8D886E4DA2D597AB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BD584EF260E7031009C1D1F6 /* libPods-HKHttpManager.a */,
+				5A3664DC75D3DF4BA980E4ED /* libPods-HKHttpManager.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D4AB459AAA6EA4D41CC23EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDE7990C7C6E54553ED58E /* Pods-HKHttpManager.debug.xcconfig */,
+				0C38DB4F164C3B4E342ED074 /* Pods-HKHttpManager.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,12 +279,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A3DBB301FFE19D800784AE6 /* Build configuration list for PBXNativeTarget "HKHttpManager" */;
 			buildPhases = (
-				C7079C1E7BD646AD193EBF55 /* [CP] Check Pods Manifest.lock */,
+				C78C0DE4572599ED2617D437 /* [CP] Check Pods Manifest.lock */,
 				3A3DBB001FFE19D700784AE6 /* Sources */,
 				3A3DBB011FFE19D700784AE6 /* Frameworks */,
 				3A3DBB021FFE19D700784AE6 /* Resources */,
-				064FDC894780CAE8DFA08A2B /* [CP] Embed Pods Frameworks */,
-				564478E77B72D1C2495A2B6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,46 +402,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		064FDC894780CAE8DFA08A2B /* [CP] Embed Pods Frameworks */ = {
+		C78C0DE4572599ED2617D437 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HKHttpManager/Pods-HKHttpManager-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		564478E77B72D1C2495A2B6B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HKHttpManager/Pods-HKHttpManager-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C7079C1E7BD646AD193EBF55 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-HKHttpManager-checkManifestLockResult.txt",
 			);
@@ -638,7 +610,7 @@
 		};
 		3A3DBB311FFE19D800784AE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A929B1EDF29D9163C23E93EC /* Pods-HKHttpManager.debug.xcconfig */;
+			baseConfigurationReference = CEDDE7990C7C6E54553ED58E /* Pods-HKHttpManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -652,7 +624,7 @@
 		};
 		3A3DBB321FFE19D800784AE6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE97E78643A881294D2E723D /* Pods-HKHttpManager.release.xcconfig */;
+			baseConfigurationReference = 0C38DB4F164C3B4E342ED074 /* Pods-HKHttpManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
